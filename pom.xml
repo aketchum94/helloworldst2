@@ -63,7 +63,7 @@
 		<muleVersion>3.8.5</muleVersion>
 		<username>${username}</username>
 		<password>${password}</password>
-<applicationName>helloworldst2-102-suntrust-wse-dev1</applicationName>
+<applicationName>${applicationName}</applicationName>
 		<workerType>Micro</workerType>
 		<redeploy>true</redeploy>
 		<environment>${environment}</environment>
