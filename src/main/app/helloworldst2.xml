@@ -17,7 +17,7 @@ http://www.mulesoft.org/schema/mule/api-platform-gw http://www.mulesoft.org/sche
         <apikit:console config-ref="helloworldst2-config" doc:name="APIkit Console"/>
     </flow>
     <flow name="get:/HelloWorld:helloworldst2-config">
-        <set-payload value="&quot;hello World&quot;" doc:name="Set Payload"/>
+        <set-payload value="&quot;hello World!&quot;" doc:name="Set Payload"/>
     </flow>
     <apikit:mapping-exception-strategy name="helloworldst2-apiKitGlobalExceptionMapping">
         <apikit:mapping statusCode="404">
