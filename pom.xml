@@ -63,7 +63,7 @@
 		<muleVersion>3.8.5</muleVersion>
 		<username>${username}</username>
 		<password>${password}</password>
-<applicationName>${applicationName}</applicationName>
+		<applicationName>${applicationName}</applicationName>
 		<workerType>Micro</workerType>
 		<redeploy>true</redeploy>
 		<environment>${environment}</environment>
